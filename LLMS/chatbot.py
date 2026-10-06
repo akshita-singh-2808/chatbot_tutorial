@@ -10,7 +10,7 @@ st.title("🤖 Gemini Chatbot")
 
 model = ChatGoogleGenerativeAI(
     model="gemini-3.8-flash",
-    google_api_key=os.getenv("Google_API_KEY"),
+    google_api_key=os.getenv("GOOGLE_API_KEY"),
     temperature=0.7
 )
 
